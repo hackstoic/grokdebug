@@ -34,7 +34,7 @@ RUN $HOME/.rbenv/bin/rbenv rehash
 
 
 # Install Grok Debugger
-RUN git clone https://github.com/nickethier/grokdebug.git /opt/grokdebug
+RUN git clone https://github.com/hackstoic/grokdebug.git /opt/grokdebug
 WORKDIR /opt/grokdebug
 RUN $HOME/.rbenv/shims/gem update
 RUN $HOME/.rbenv/shims/bundle update
